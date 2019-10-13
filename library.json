@@ -1,0 +1,23 @@
+{
+  "name":"ESP-EQ3",
+  "description":"Talk to EQ3 (Eqiva) Thermostats with an ESP32 over BLE",
+  "keywords":"ble,eq3,eqiva,esp32,thermostat",
+  "authors":
+  {
+    "name": "Pieter de Bie",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/pieter/ESP-EQ3.git"
+  },
+  "version": "0.1.0",
+  "license": "LGPL-3.0",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": [{
+      "name": "ESP32 BLE Arduino",
+      "version": "~1.0.1"
+  }]
+}
